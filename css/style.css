@@ -1,0 +1,176 @@
+/*
+*style.css
+*Template Name: projet html 
+version: 1.0
+*by E. GGT
+*/
+
+@font-face {
+    font-family: 'mass_effect_123regular';
+    src: url('fonts/fonts/me123-webfont.woff2') format('woff2'),
+         url('fonts/me123-webfont.woff') format('woff'),
+         url('fonts/me123.ttf') format('ttf') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/** Body**/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0A0114;
+    background: -moz-linear-gradient(left, #0A0114 0%, #9508A4 60%, #9561C5 100%);
+    background: -webkit-linear-gradient(left, #0A0114 0%, #9508A4 60%, #9561C5 100%);
+    background: linear-gradient(to right, #0A0114 0%, #9508A4 60%, #9561C5 100%);
+    margin: auto;
+    width: 90vh;
+    min-height: 100vh;
+    color: white;
+    
+  
+}
+
+/* Partie header*/
+
+#main-box {
+    width: auto;
+    
+}
+
+header {
+
+}
+
+header #logo-title, nav {
+    /* background-color: rgba(170, 30, 147, 0.5);    */
+}
+
+#logo-title img {
+ padding: 1rem;
+}
+
+#rs-logo {
+    text-align: right;
+
+}
+#rs-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+header h1 {
+    font-family: 'mass_effect_123regular';
+    font-size: 3rem;
+    
+    
+}
+
+#logo-title {
+    display: flex;
+    align-items: center; 
+    justify-content: left;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav ul {
+    
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: rgb(57, 209, 146);
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: red;
+}
+
+/*Partie main de la page*/
+
+main {
+    margin: 5 auto;
+    padding: auto;
+    /*background-color: #0a0114; couleur de l'image de rupaul*/
+
+   
+
+}
+
+main h2 {
+ font-family: 'mass_effect_123regular';
+ font-size: 2rem;
+ margin: 2rem;
+ text-align: center;
+
+}
+
+aside  {
+    float: left;
+    height: 100vh;
+}
+
+aside img {
+    max-width: 200px;
+    height: auto;
+}
+
+article ol {
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+
+}
+
+article li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+article li img {
+    overflow: hidden;
+    margin-top: 1em;
+
+    width: auto;
+    height: 100px;  
+
+}
+article li p {
+    margin-top: 1em;
+    text-align: justify;
+}
+
+article a {
+    color: yellow;
+}
+
+article a:hover {
+    font-weight: bold;
+    color: red;
+}
+
+
+.modif-img:hover {
+    transition: transform 500ms;
+    transform: scale(1.5);
+}
+
+/*Pied de page*/
+
+footer {
+    vertical-align: middle;
+    text-align: right;
+    margin: 4rem auto;
+}
